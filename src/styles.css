@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:wght@300;400&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  width: 100vw;
+}
+
+.Navbar {
+  color: black;
+  font-size: 18px;
+}
+
+.image {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.App {
+  -moz-box-shadow: inset 0 0 40px #d39730;
+  -webkit-box-shadow: inset 0 0 40px #d39730;
+  box-shadow: inset 0 0 40px #d39730;
+}
+
+.cardgrid {
+  flex: 1;
+  display: grid;
+  grid-gap: 20px;
+  box-shadow: 5px 5px 20px 5px #d39730;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cardgrid:hover {
+  box-shadow: 5px 5px 30px 10px rgb(223, 216, 216);
+}
+
+.cardtitle {
+  color: rgb(172, 168, 168);
+  padding: 20px;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cardtitle:hover {
+  color: #865808;
+}
+
+#drop {
+  color: rgb(172, 168, 168);
+}
+
+#drop2 {
+  margin-left: 25vw;
+}
+
+.search {
+  margin-left: 20vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#listItems1 {
+  color: rgb(10, 10, 10);
+}
+
+#listItems3 {
+  color: rgb(10, 10, 10);
+}
+
+#listItems4 {
+  color: rgb(10, 10, 10);
+}
+
+#listItems2 {
+  color: rgb(10, 10, 10);
+}
+
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.bg {
+  color: black;
+}
+
+#input {
+  background-color: rgb(204, 201, 201);
+}
+
+#input:focus {
+  border-color: #d39730;
+}
+#searchButton {
+  border: 1px solid rgb(172, 168, 168);
+  background-color: black;
+  color: rgb(172, 168, 168);
+}
+
+#searchButton:hover {
+  color: #d39730;
+  border: 1px solid #d39730;
+  cursor: pointer;
+  transition: 0.5;
+}
+.main-footer {
+  color: rgb(172, 168, 168);
+  padding-top: 1em;
+  width: 100%;
+}
+
+.image2 {
+  width: 75%;
+  border: 3px solid rgb(172, 168, 168);
+  border-radius: 12px;
+}
+
+.textfoot {
+  color: #726c65;
+}
+
+#moviepagecont {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#postercont {
+  align-items: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#infocont {
+  align-items: right;
+  width: 50vw;
+}
+
+h5 {
+  text-align: center;
+  margin: 5px 5px;
+  color: #d39730;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#info {
+  text-align: left;
+  margin: 5px 5px;
+  color: #a76e0c;
+}
+
+p,
+span {
+  color: rgb(172, 168, 168);
+}
+
+#right {
+  color: rgb(172, 168, 168);
+}
+
+#youtubetut {
+  width: 90vw;
+  margin: auto;
+}
+
+#tutorial {
+  border-radius: 10px;
+}
+
+#bio {
+  color: rgb(172, 168, 168);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#title {
+  font-weight:bold;
+  color:#9e680b;
+  margin:8px 5px;
+}
+#reldate{
+  color:rgb(124, 93, 24);
+}
+#rate{
+  color:rgb(248, 198, 106)
+}
+.image3 {
+  margin: auto;
+  border-radius: 50%;
+  height: 65vh;
+  margin-left: 70px;
+  margin-top: 50px;
+  box-shadow: 3px 3px 15px 3px rgb(223, 216, 216);
+  border:2px solid rgb(223, 216, 216);
+}
+#tutitle {
+  margin-bottom: 20px;
+}
+
+.back {
+  margin-top: 30px;
+  color: rgb(172, 168, 168);
+}
+.back:hover {
+  color: rgb(3, 84, 131);
+}
+
+#actorinfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+.actorname{
+font-size: 40px;
+color:#865808;
+margin:10px;
+}
+
+.birthdate{
+  font-size:20px;
+  color:rgb(58, 56, 56);
+  margin-bottom: 30px;
+  margin:10px;
+}
+
+.actdo{
+ margin:10px;
+margin-top:30px;}
+
+.back2{
+  margin-top: 30px;
+  color: rgb(172, 168, 168);
+  text-align: center;
+  font-size:20px;
+  margin-bottom: 20px;
+
+}
+.back2:hover {
+  color: rgb(3, 84, 131);
+}

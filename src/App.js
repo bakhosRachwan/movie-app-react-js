@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useContext } from "react";
+import "./styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import MoviePage from "./components/MoviePage";
+import ActorInfoPage from "./components/ActorInfoPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { StateContext } from "./State";
 
-function App() {
+export default function App() {
+  const [state, dispatch] = useContext(StateContext);
+
+  // const [movies, setMovies] = useState([]);
+  // const [gen/re, setGenre] = useState(0);
+
+  const TMDB_BASE_URL = `https://api.themoviedb.org/3`;
+  const constructUrlG = (path) => {
+    return `${TMDB_BASE_URL}/movie/${path}?api_key=${atob(
+      "ZDJmYTdhZDFlMjZhZjA4NDdkMzQ5ZDdkYmQ1ZjkzZTU="
+    )}`;
+  };
+
+  // useEffect(() => {
+  //   console.log(`Current genre: ${genre}`);
+  // }, [genre]);
+
+  // popular fetching
+  useEffect(() => {
+    fetch(constructUrlG("popular"))
+      .then((response) => response.json())
+      .then((data) => dispatch({ type: "SET_Movies", payload: data.results }));
+  }, []);
+
+  // console.log(state.genre);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/* <Switch> */}
+        <Header />
+        <Route exact path="/" component={() => <Main />} />
+        <Route path="/movie/:id" component={MoviePage} />
+        <Route path="/actor/:actid" component={ActorInfoPage} />
+        <Footer />
+        {/* </Switch> */}
+      </div>
+    </Router>
   );
 }
-
-export default App;
