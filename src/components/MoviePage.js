@@ -17,12 +17,9 @@ const constructUrlT = (path, query) => {
 };
 
 const MoviePage = (props) => {
-  // const idx = props.id;
   const [movieData, setMovieData] = useState(null);
   const [movieTrailer, setMovieTrailer] = useState(null);
   const [movieCast, setMovieCast] = useState(null);
-
-  // console.log(movieCast);
 
   const { id: idx } = useParams();
   console.log(idx);
@@ -66,7 +63,6 @@ const MoviePage = (props) => {
                   <div className="back">
                     <MdArrowBack size="2em" /> Back{" "}
                   </div>
-                  {/* <button className="btn btn-secondary btn-lg">Back</button> */}
                 </Link>
               </div>
             </div>
@@ -114,8 +110,8 @@ const MoviePage = (props) => {
               ></iframe>
             </div>
           ) : (
-            "UNFORTUNATELY NO TRAILER AVAILABLE!!"
-          )}
+              "UNFORTUNATELY NO TRAILER AVAILABLE!!"
+            )}
         </div>
       )}
     </div>

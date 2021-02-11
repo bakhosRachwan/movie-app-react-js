@@ -1,8 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-// Add all icons to the library so you can use it in your page
 
-//Footer
 const Footer = () => {
   return (
     <div className="main-footer">
@@ -23,7 +21,6 @@ const Footer = () => {
                 >
                   Jana Zrayka
                 </a>
-
                 <a
                   href="https://github.com/sallyalsardouk"
                   className="badge badge-secondary mr-4"
@@ -32,7 +29,6 @@ const Footer = () => {
                 >
                   Sally Sardouk
                 </a>
-
                 <a
                   href="https://github.com/marwa-shahal"
                   className="badge badge-secondary mr-4"
@@ -41,7 +37,6 @@ const Footer = () => {
                 >
                   Marwa Shahal
                 </a>
-
                 <a
                   href="https://github.com/bakhosRachwan"
                   className="badge badge-secondary mr-4"
@@ -63,7 +58,6 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    //
   );
 };
 

@@ -64,4 +64,3 @@ const SearchBox = (props) => {
 
 export default SearchBox;
 
-// https://api.themoviedb.org/3/genre/movie/list?api_key=d2fa7ad1e26af0847d349d7dbd5f93e5&language=en-US

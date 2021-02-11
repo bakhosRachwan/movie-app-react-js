@@ -10,24 +10,9 @@ const constructUrl = (path) => {
   )}`;
 };
 
-// const ActorInfoPage=()=>(){
-//   const [person, setPerson] = useState({});
-//   let PERSON_ID = props.match.params.id;
-//   let SEARCH_URL;
-//   useEffect(() => {
-//     SEARCH_URL = constructUrl(`person/${PERSON_ID}`);
-//     fetch(SEARCH_URL)
-//       .then((res) => res.json())
-//       .then((data) => {
-//         setPerson(data);
-//       });
-//   }, [PERSON_ID]);
-
 const ActorInfoPage = () => {
   const [actor, setActor] = useState(null);
   const { actid: actorId } = useParams();
-
-  // console.log(actor);
 
   useEffect(() => {
     fetch(constructUrl(actorId))
@@ -69,7 +54,6 @@ const ActorInfoPage = () => {
                   <MdArrowBack size="2em" />
                   Back
                 </div>
-                {/* <button className="btn btn-secondary btn-lg">Back</button>  */}
               </Link>
             </div>
           </div>

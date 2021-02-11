@@ -1,8 +1,6 @@
 import React from "react";
 import MoviesGrid from "./MoviesGrid";
-// import MoviePage from "./MoviePage";
 import { Container, Row } from "react-bootstrap";
-// import { Route } from "react-router-dom";
 
 const Main = () => {
   return (
