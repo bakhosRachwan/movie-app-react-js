@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
 
 const TMDB_BASE_URL = `https://api.themoviedb.org/3`;
@@ -46,15 +45,10 @@ const ActorInfoPage = () => {
               <p className="actdo">{actor.biography}</p>
             </div>
             <div className="back">
-              <Link
-                onClick={() => window.history.back()}
-                style={{ textDecoration: "none" }}
-              >
-                <div className="back2">
+                <div className="back2" onClick={() => window.history.go(-1)}>
                   <MdArrowBack size="2em" />
                   Back
                 </div>
-              </Link>
             </div>
           </div>
         </div>
