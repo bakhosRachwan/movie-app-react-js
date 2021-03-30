@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MJBS is a movie search app that helps display and sort all movies available in the TMDB API.
+This App is build with ReactJS, Bootstrap and CSS.
+Also, uses Netlify to deploy.
 
-## Available Scripts
+## Screenshots 
 
-In the project directory, you can run:
+Home Page
 
-### `npm start`
+![movies-1](https://user-images.githubusercontent.com/73699553/113022467-4fca3400-918d-11eb-842c-49a86b2b82a0.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Main functionality is searching and filtering by Genre
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![movies4](https://user-images.githubusercontent.com/73699553/113022638-7be5b500-918d-11eb-8c67-e2b56d855ec7.jpg)
 
-### `npm test`
+Single Movie
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can select any movie and it will take you to a single movie page.
 
-### `npm run build`
+![movies-2](https://user-images.githubusercontent.com/73699553/113022782-a5064580-918d-11eb-857f-4c08d23bfad2.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here you can read summary about the movie and checkout the main actors.
+Also, you can checkout a Trailer if available
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![movies-2 1](https://user-images.githubusercontent.com/73699553/113022959-d5e67a80-918d-11eb-93b8-e7eacdb7619e.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Actor Page
 
-### `npm run eject`
+if you click the actor name it will display a shot Bio about the actor along with picture of Him/Her.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![movies-3](https://user-images.githubusercontent.com/73699553/113023362-34135d80-918e-11eb-89f2-7cdeb55e4e9d.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##Installation and Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can clone the repository.
+```
+git clone https://github.com/bakhosRachwan/movie-app-react-js.git
+cd movie-app-react-js
+npm install
+npm strat
+```
