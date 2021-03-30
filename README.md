@@ -4,6 +4,11 @@ MJBS is a movie search app that helps display and sort all movies available in t
 This App is build with ReactJS, Bootstrap and CSS.
 Also, uses Netlify to deploy.
 
+#Demo
+
+Check out a live demo and try it for yourself hrer: https://mjbs-movie-app.netlify.app/
+
+
 ## Screenshots 
 
 **Home Page**
