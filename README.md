@@ -6,7 +6,7 @@ Also, uses Netlify to deploy.
 
 ## Demo
 
-Check out a live demo and try it for yourself hrer: https://mjbs-movie-app.netlify.app/
+Check out a live demo and try it for yourself here: https://mjbs-movie-app.netlify.app/
 
 
 ## Screenshots 
