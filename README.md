@@ -36,7 +36,7 @@ if you click the actor name it will display a shot Bio about the actor along wit
 
 ![movies-3](https://user-images.githubusercontent.com/73699553/113023362-34135d80-918e-11eb-89f2-7cdeb55e4e9d.jpg)
 
-##Installation and Setup
+## Installation and Setup
 
 You can clone the repository.
 ```
